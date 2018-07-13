@@ -1,5 +1,6 @@
-# Client_Server_FileTrasfer
+# Client-Server File Trasfer
 
+Iterative (server1) and Concurrent (server2) file transfer service.
 Client can request one or more files to server. Have fun!
 
 # Usage:
