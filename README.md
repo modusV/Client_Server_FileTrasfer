@@ -10,7 +10,7 @@ gcc -std=gnu99 -o client client1/*.c *.c -Iclient1 -lpthread -lm <br>
 gcc -std=gnu99 -o server server2/*.c *.c -Iserver2 -lpthread -lm <br>
 
 Execute server as: <br>
-./server 1500 
+./server <dest_port> 
 
 Execute client as: <br>
-usage: <dest_address> <dest_port> <filename> [filename ... ]
+./client <dest_address> <dest_port> <filename> [filename ... ]
